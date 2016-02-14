@@ -14,4 +14,4 @@ These structures contain imputs for similar data.
 ######Post
 
 -Data is not visible to the user.
--Usually
+-Usually sensitive data.

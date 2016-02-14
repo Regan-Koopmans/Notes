@@ -10,7 +10,21 @@
 	public void countDown(int n)
     {
     	if (n > 0)
+        {
+        	System.out.println(n);
         	return countDown( n-1 );
+        }
+    }
+```
+Is equivelent to:
+
+```java
+	public void countDown(int n)
+    {
+    	for (int x = n; x > 0; x--)
+        {
+        	System.out.println(x);
+        }
     }
 ```
 
@@ -51,9 +65,11 @@
     }
 ```
 
+
+
 ##Nested Recursion
 
-**Nested recursion** is when the parameter of a recursive call is anotherrecursive call. As one can imaging these functions tend to explode in computational time and complexity.
+**Nested recursion** is when the parameter of a recursive call is another recursive call. As one can imaging these functions tend to explode in computational time and complexity.
 
 ##Backtracking
 
@@ -61,12 +77,14 @@ This is the methology that if a recursive path does not find a solution, it will
 
 A good demonstration of this is the **8 Queens Problem**.
 
+
+
 ##Excessive Recursion
 
 Recursion does have its trade-offs. Common issues attached to recursion are:
 
 1. Redundant/unintelligent function calls.
-2. Too many stack frames = stack-overflow
+2. Too many stack frames = stack-overflow.
 
 ---
 
