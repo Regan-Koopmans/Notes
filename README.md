@@ -8,7 +8,7 @@
 <br/>
 <a href="ComplexityAnalysis.md">Complexity Analysis</a>
 <br/>
-<a href="BinrayTrees.md">Binary Trees</a>
+<a href="BinaryTrees.md">Binary Trees</a>
 
 ##COS 216
 
