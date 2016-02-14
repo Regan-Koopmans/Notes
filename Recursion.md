@@ -39,6 +39,8 @@ Is equivelent to:
     }
 ```
 
+
+
 ##Indirect Recursion
 
 **Indirect Recursion** is when two or more  functions call eachother in a recursive fashion:

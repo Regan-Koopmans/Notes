@@ -9,6 +9,8 @@ Other lists are not always appropriate because:
 
 Skip Lists are ordered linked lists that enable searches in O(ln(n)). The basic premise of skip lists is that every 2nd node points 2 nodes ahead, every 4th four nodes ahead.
 
+
+
 ### Pseudo code for search:
 ```ruby
 1. Start at highest level.
@@ -79,7 +81,39 @@ Skip Lists are ordered linked lists that enable searches in O(ln(n)). The basic 
 ```java
 	public void delete(T value)
     {
-    
+    	SkipListNode<T>[] curr = new SkipListNode[maxLevel];
+        SkipListNode<T>[] prev = new SkipListNode[maxLevel];
+        int lvl, i;
+        curr[maxLevel-1] = root[maxLevel-1];
+        prev[maxLevel-1] = null;
+        for (lvl = maxLevel -1; lvl >= 0; lvl--)
+        {
+        	while (curr[lvl] != null && curr[lvl].element.compareTo(value) < 0)
+            {
+            	prev[lvl] = curr[lvl];
+                curr[lvl] = curr[lvl].next[lvl];
+            }
+            if (curr[lvl] != null && curr[lvl].element.equals(value))
+            	return;
+            if (lvl > 0)
+            	if (prev[lvl] == null)
+               {
+               	curr[lvl-1] = root[lvl-1];
+                   prev[lvl-1] = null;
+               }
+            else
+            {
+            	curr[lvl-1] = prev[lvl].next[lvl-1];
+                prev[lvl-1] = prev[lvl];
+            }
+
+            //Set appropriate references.
+
+            for (i = 0; i <= lvl; i++)
+          		if (prev[i] = null)
+               	root[i] = curr[i].next[i];
+               else prev[i].next[i] = curr[i].next[i];
+        }
     }
 ```
 

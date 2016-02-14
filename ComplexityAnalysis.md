@@ -23,3 +23,7 @@ We can calculate the complexity of an algorithm by many delimeters. One common w
 5. If f(n) = c.g(n) then f(n) = O(g(n)).
 6. log<sub>a</sub>n = O(log<sub>b</sub>n) for any a,b >1
 7. log<sub>a</sub>n is O(log<sub>2</sub>n) for any positive a &ne;1.
+
+---
+
+_Regan Koopmans, 2016_
