@@ -168,6 +168,21 @@ There are four main self-organising lists.
         return nodePointer.element;
     }
 ```
+```mermaid
+graph LR;
+
+	a --> b;
+	b --> c;
+    c --> d;
+```
+
+```mermaid
+graph LR;
+
+	a --> b;
+	b --> c;
+    c --> d;
+```
 
 ####Move-to-front.
 
