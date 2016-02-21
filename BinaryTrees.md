@@ -22,7 +22,7 @@ public void breadthFirst()
         while (!queue.isEmpty())
         {
         	p = queue.dequeue();
-            visit(p); 	//any processing we wish to do.
+            visit(p); 	//any processing we wish to do
             if (p.left != null)
             	queue.enqueue(p.left);
             if (p.right != null)
@@ -32,13 +32,11 @@ public void breadthFirst()
 }
 
 ```
-
 ###Depth First
 
 Traversal goes as far as possible one way, until an end is found, and then backtacks to go down another path.
 
 ####Pre-Order
-
 
 ```java
 protected void preorder(BSTNode<T> p)
