@@ -20,7 +20,7 @@
 
 ##WTW 152
 
-
+<a href="DifferenceEquasions.md">Difference Equasions</a>
 
 ##INF 214
 
