@@ -1,5 +1,7 @@
 #Binary Trees
 
+[TOC]
+
 A binary tree has the following fundamental qualities:
 
 - Each node has at most 2 children
@@ -82,6 +84,67 @@ protected void postoder(BSTNode<T> p)
 
 #####Threaded Trees.
 
-![](http://d18khu5s3lkxd9.cloudfront.net//wp-content/uploads/2014/07/threadedBT.png)
-
 These are trees where the null right children point to the immediate node above them to the right.
+
+###Morris Traversal
+
+This algorithm linearizes any tree, traverses it and then puts it back together.
+
+####Non-reversible
+
+```ruby
+1. Initlialize p as root
+2. While p is not NULL
+	I If p does not have left child:
+    	a) Visit p
+        b) Go to p.right
+    II Else
+    	a) Make p the right child of the rightmost node in  p's left subtree.
+        b) Go to p.left
+```
+####Reversible
+
+
+```ruby
+1. Initialize p as root
+2. While p is not NULL
+	I If p.left is NULL
+    	a) Visit p
+        b) Go to p.right
+    II Else
+    	a) tmp <- p.left, keep right unit conditions:
+        b) If tmp.right == NULL
+        	i Make p the right child of tmp.
+            ii. Go to p.left.
+        c) Else if (tmp.right == p)
+        	i Visit p
+            ii tmp.right <- NULL
+            iii Go to p.right
+```
+
+##Deletion from Trees
+
+###Deletion by Merging
+
+This is a simple method of deletion where we maintain the fundamental rules of the binary tree.
+
+```
+	 [D]                          [D]
+    /   \         DELETE B       /   \
+  [B]   [E]          ->        [A]   [E]
+  / \                            \
+[A]  [C]                          [C]
+```
+```java
+public void deleteByMerging(T el)
+{
+	BSTNode<T> tmp,node, p = root, prev = null;
+    while (p != null && !p.el.equals(el))
+    {
+    	prev = p;
+		if (el.compareTo(p.el) < 0)
+        	p = p.left;
+		else p = p.right;
+    }
+}
+```
