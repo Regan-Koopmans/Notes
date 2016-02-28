@@ -147,7 +147,7 @@ There are four main self-organising lists.
 		if (head.next.element.equals(n))
         {
         	Node nodePointer = head.next;
-            head.next = nodePointer.next.next;
+            head.next = nodePointer.next;
             head = nodePointer;
         }
 
