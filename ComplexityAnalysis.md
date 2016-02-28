@@ -1,5 +1,7 @@
 #Complexity Analysis
 
+[TOC]
+
 ##Big-O Notation
 
 This operation means "order of" and is used to describe the general behaviour of an algorithm.

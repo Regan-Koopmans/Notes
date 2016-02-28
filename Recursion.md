@@ -1,6 +1,6 @@
 #Recursion
 
-
+[TOC]
 
 ##Tail Recursion
 

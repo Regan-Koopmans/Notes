@@ -52,7 +52,11 @@ protected void preorder(BSTNode<T> p)
 }
 
 ```
-
+```
+      [x]          [x]        [x]
+     /   \        /   \      /   \
+   [ ]   [ ]    [x]   [ ]  [x]   [x]
+```
 ####In-order
 
 ```java
@@ -66,7 +70,11 @@ protected void inorder(BSTNode<T> p)
     }
 }
 ```
-
+```
+      [ ]          [x]        [x]
+     /   \        /   \      /   \
+   [x]   [ ]    [x]   [ ]  [x]   [x]
+```
 ####Post-order
 
 ```java
@@ -79,6 +87,11 @@ protected void postoder(BSTNode<T> p)
         visit(p);
     }
 }
+```
+```
+      [ ]          [ ]        [x]
+     /   \        /   \      /   \
+   [x]   [ ]    [x]   [x]  [x]   [x]
 ```
 ####Stack-Less Depth-First
 
@@ -146,5 +159,30 @@ public void deleteByMerging(T el)
         	p = p.left;
 		else p = p.right;
     }
+    node = p;
 }
 ```
+
+##Inserting into Trees
+
+```java
+public void insert(T el)
+{
+	BSTNode<T> p = root, prev = null;
+    while (p != null)
+    {
+    	prev = p;
+        if (el.compareTp(p.el) < 0) //if element is smaller than current
+        	p = p.left;
+        else p = p.right;
+    }
+    if (root == null)
+    	root = new BSTNode<T>(el);
+	else if (el.compareTo(prev.el) < 0)  //if element is smaller than current
+    	prev.left = new BSTNode<T>(el);
+    else
+    	prev.right = new BSTNode<T>(el);
+}
+```
+---
+_Regan Koopmans 2016_

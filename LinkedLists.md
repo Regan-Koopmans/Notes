@@ -1,5 +1,7 @@
 #Linked Lists
 
+[TOC]
+
 ##Skip Lists
 
 Other lists are not always appropriate because:
@@ -240,6 +242,12 @@ There are four main self-organising lists.
         }
     }
 ```
+##Common Questions
+
+1. **What is the difference between delete/insert from head and tail in circular linked list?**
+
+>Any operation on the tail (delete/insert) will always modify the tail pointer (provided you maintain a tail pointer) whereas operations on head may or may not affect the tail pointer depending on the case
+
 ---
 
 _Regan Koopmans 2016._
