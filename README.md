@@ -1,5 +1,7 @@
 #Notes
 
+For optimum reading download [Haroopad](http://pad.haroopress.com/user.html).
+
 ##COS 212
 
 <a href="Recursion.md">Recursion</a>

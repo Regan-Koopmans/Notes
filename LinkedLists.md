@@ -121,7 +121,7 @@ Skip Lists are ordered linked lists that enable searches in O(ln(n)). The basic 
 
 The number of levels is calculated by:
 
-``log(n) + 1 ``
+$$$log(n) + 1$$$
 
 (where n is the number of nodes).
 
@@ -246,7 +246,7 @@ There are four main self-organising lists.
 
 1. **What is the difference between delete/insert from head and tail in circular linked list?**
 
->Any operation on the tail (delete/insert) will always modify the tail pointer (provided you maintain a tail pointer) whereas operations on head may or may not affect the tail pointer depending on the case
+>Any operation on the tail (delete/insert) will always modify the tail pointer (provided you maintain a tail pointer) whereas operations on head may or may not affect the tail pointer depending on the case.
 
 ---
 
