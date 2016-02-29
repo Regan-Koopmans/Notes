@@ -18,6 +18,8 @@ For optimum reading download [Haroopad](http://pad.haroopress.com/user.html).
 <br/>
 <a href="CSS.md">CSS</a>
 <br/>
+<a href="XML.md">XML</a>
+<br/>
 <a href="Sockets.md">Sockets</a>
 
 ##WTW 152
