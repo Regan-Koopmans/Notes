@@ -1,6 +1,6 @@
-
-
 #CSS
+
+[TOC]
 
 We can give multiple elements the same rules by delitering them with a comma.
 
@@ -22,7 +22,14 @@ We can give multiple elements the same rules by delitering them with a comma.
 - document - placing a style tag
 - inline - styling individual elements.
 
-****Note that class selectirs are more robust than id selectors.****
+****Note that class selectors are more robust than id selectors.****
+
+###Specificity
+
+However above this there are rules within CSS files that govern how the end result will look:
+
+- If two or more blocks have the same specificity the **last** will take effect.
+
 
 ##The Box Model
 

@@ -184,5 +184,7 @@ public void insert(T el)
     	prev.right = new BSTNode<T>(el);
 }
 ```
----
+Inserting into a tree takes $$$O(log(n))$$$ time.
+
+
 _Regan Koopmans 2016_

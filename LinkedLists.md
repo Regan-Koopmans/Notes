@@ -11,7 +11,7 @@ Other lists are not always appropriate because:
 
 Skip Lists are ordered linked lists that enable searches in O(ln(n)). The basic premise of skip lists is that every 2nd node points 2 nodes ahead, every 4th four nodes ahead.
 
-
+![](skiplist.gif)
 
 ### Pseudo code for search:
 ```ruby

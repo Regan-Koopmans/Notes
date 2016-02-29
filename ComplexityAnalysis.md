@@ -6,7 +6,7 @@
 
 This operation means "order of" and is used to describe the general behaviour of an algorithm.
 
-<img src="https://camo.githubusercontent.com/07797459d6fa5146989128b194df9acc5eaca774/687474703a2f2f7777772e64617665706572726574742e636f6d2f696d616765732f61727469636c65732f323031302d31322d30372d636f6d702d7363692d3130312d6269672d6f2d6e6f746174696f6e2f54696d655f436f6d706c65786974792e706e67">
+![](complexity.png)
 
 We can calculate the complexity of an algorithm by many delimeters. One common way is to count the number of in terms your input, and the complexity will be the greatest power of 'n' in that equasion.
 

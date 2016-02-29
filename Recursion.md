@@ -28,6 +28,8 @@ Is equivelent to:
     }
 ```
 
+==*It is important to remember that we do not gain much benefit from tail recursion, as we are unnecessarily occupying memory and gaining little or no shortening of code.*==
+
 ##Non-Tail Recurison
 
 **Non-tail Recursion**, as one would expect is when we have two or more recursive function calls:
@@ -38,8 +40,9 @@ Is equivelent to:
     	return Fib(n-1) + Fib(n-2);
     }
 ```
+![](fib_tree.png)
 
-
+*Notice how many times we make a call the the same function with the same parameters &rarr; inefficient.*
 
 ##Indirect Recursion
 
@@ -67,8 +70,6 @@ Is equivelent to:
     }
 ```
 
-
-
 ##Nested Recursion
 
 **Nested recursion** is when the parameter of a recursive call is another recursive call. As one can imaging these functions tend to explode in computational time and complexity.
@@ -86,7 +87,7 @@ A good demonstration of this is the **8 Queens Problem**.
 Recursion does have its trade-offs. Common issues attached to recursion are:
 
 1. Redundant/unintelligent function calls.
-2. Too many stack frames = stack-overflow.
+2. Too many stack frames &rarr; stack-overflow.
 
 ---
 
