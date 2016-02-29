@@ -30,6 +30,24 @@ However above this there are rules within CSS files that govern how the end resu
 
 - If two or more blocks have the same specificity the **last** will take effect.
 
+| Column | Type |
+|-|-|
+| A | inline styles |
+| B | IDs|
+| C | classes, a |
+| D | elements /pseudo-elements |
+###Styling Classes
+
+#### **Regular classes**
+#### **IDs** 
+are regarded as classes in some literature.
+####**Pseudo Classes** 
+let you specify the state of an object (eg :hover)
+
+- matching
+- link
+- dynamic
+- language.
 
 ##The Box Model
 

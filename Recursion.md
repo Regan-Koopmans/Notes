@@ -28,8 +28,6 @@ Is equivelent to:
     }
 ```
 
-==*It is important to remember that we do not gain much benefit from tail recursion, as we are unnecessarily occupying memory and gaining little or no shortening of code.*==
-
 ##Non-Tail Recurison
 
 **Non-tail Recursion**, as one would expect is when we have two or more recursive function calls:
@@ -40,9 +38,8 @@ Is equivelent to:
     	return Fib(n-1) + Fib(n-2);
     }
 ```
-![](fib_tree.png)
 
-*Notice how many times we make a call the the same function with the same parameters &rarr; inefficient.*
+
 
 ##Indirect Recursion
 
@@ -69,6 +66,8 @@ Is equivelent to:
         	return isEven(n+1);
     }
 ```
+
+
 
 ##Nested Recursion
 
