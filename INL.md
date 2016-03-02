@@ -114,6 +114,9 @@ This regards to privacy in one's choices.
 
 
 
+**Informational**
+
+
 ---
 
 ### Legislation related to Privacy

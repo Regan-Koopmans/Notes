@@ -96,11 +96,11 @@ This Schema defines a basic email data structure.
 - An open format &rarr; can work towards a standard.
 - Used on client and server
 - Widely supported
-- Disparate systems can communicate.
+- **Disparate systems** can communicate.
 
 ###Disadvantages of XML
 
-- Not suitable for large amounts of data, cannot replace database.
-- Lightweight data may be more appropriate for JSON
+- Not suitable for large amounts of data, **cannot replace databases**.
+- Task or technology (such as Javascript) may make JSON more appropriate.
 - Images cannot be represented easily.
-- Becomes hard to read quickly.
+- Becomes **hard to read** quickly.
