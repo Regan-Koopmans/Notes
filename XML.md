@@ -50,6 +50,12 @@ But we can set custom rules in addition to standard parsing, to set logical rule
 
 A DTD file can be private/local or public.
 
+To connect a private DTD file we can use the following statement:
+
+```XML
+<!DOCTYPE outermostElement SYSTEM "filename.dtd">
+```
+
 ##### Elements
 
 ```XML
