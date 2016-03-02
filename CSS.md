@@ -13,8 +13,14 @@ We can give multiple elements the same rules by delitering them with a comma.
 
 ##Representing colour
 
-- hex - a hexedecimal colour.
-- hex short - #0000FF -> #00F
+- hex - a hexedecimal number.
+- hex short - #0000FF &rarr; #00F
+- rgb &rarr; rgb(255,255,255)
+
+There is also a set of predefined colours:
+<div align="center">
+![](color-table.jpg)
+</div>
 
 ##Levels of CSS
 
@@ -53,14 +59,17 @@ let you specify the state of an object (eg :hover)
 
 These are elements based the state of other elements, and are denoted with a "::". Some examples include:
 
-- nth-child(n)
+- before
+- after
 - first-letter
 - first-child
 - last child
 
 ##The Box Model
 
+<div align="center">
 ![Box Model](box-model.gif)
+</div>
 
 This is the design layout of HTML elements. Each element is wrapped in a box that looks like the box above.
 
@@ -91,7 +100,7 @@ And then later on you can define
 }
 ```
 
-Alternatively you can define an arbitrary number of keyframes by using percentages:
+Alternatively you can define an **arbitrary number** of keyframes by using percentages:
 
 ```CSS
 @keyframes example
@@ -103,8 +112,3 @@ Alternatively you can define an arbitrary number of keyframes by using percentag
     100% { font-size:25px;}
 }
 ```
-<div align="center">
-<video width="450"src="https://www.youtube.com/watch?v=LzELw8k1FEY">
-Browser does not support video.
-</video>
-</div>
