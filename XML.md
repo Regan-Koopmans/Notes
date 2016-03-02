@@ -80,7 +80,7 @@ Data is in two broad categories
 This Schema defines a basic email data structure.
 
 ```XML
-<?xml version="1.0"?>
+<?xml version="1.0" enoding="ISO-8859-1"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 <xs:element name="note">
@@ -99,14 +99,16 @@ This Schema defines a basic email data structure.
 ###Advantages of XML
 
 - Content is **separate from presentation.**
-- An open format &rarr; can work towards a standard.
+- An open format &rarr; people can work towards a standard.
 - Used on client and server
 - Widely supported
-- Disparate systems can communicate.
+- **Disparate systems** can communicate.
 
 ###Disadvantages of XML
 
-- Not suitable for large amounts of data, cannot replace database.
-- Lightweight data may be more appropriate for JSON
+- Not suitable for large amounts of data, **cannot replace databases**.
+- Task or technology (such as Javascript) may make JSON more appropriate.
 - Images cannot be represented easily.
-- Becomes hard to read quickly.
+- Becomes **hard to read** quickly.
+
+###Dumping XML into a Database?
