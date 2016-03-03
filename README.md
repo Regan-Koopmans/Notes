@@ -1,6 +1,6 @@
 #Notes
 
-For optimum reading download [Haroopad](http://pad.haroopress.com/user.html).
+For optimum reading, check out the HTML, PDFs or download [Haroopad](http://pad.haroopress.com/user.html).
 
 ##COS 212
 
