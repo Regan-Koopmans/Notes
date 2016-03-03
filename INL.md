@@ -13,11 +13,12 @@
 |Micro   | Day-to-day handling of information |
 
 
-### Ethical Theories
+### Ethical Theories 
 
 #### Virtue Ethics 😄
 
 Compiled by **Aristotle** in 4^th^ Century BC. It is concerned with what brings the most **happiness** to one's self and how one lives a good life.
+
 
 #### Deontological Ethics
 
@@ -46,13 +47,21 @@ Developed in 1455.
 
 This allowed the first mass printing of books and enabled an information revolution.
 
-In less than 100 years, 8 million books had been printed by the Gutenberg Press.
+In less than 100 years, _8 million books_ had been printed by the Gutenberg Press.
 
 ### South African Law ⚖
 
-#### Constitution
+#### ==Characteristics of Law==
 
-#### Bill of Rights
+Law is an ever-evolving set of rules that are influences by changes in society. Some idealistic characteristics of law:
+
+- A set of rules that enables and regulates human interaction.
+- Ability to create order and give surety to society.
+- The effective applications of rules by organs of state to ensure the first two goals.
+
+#### ==The Legislative Process==
+
+How a bill becomes an Act:
 
 ##### Section 10 - Human Dignity 😎
 
@@ -75,7 +84,7 @@ Everyone has the right to  privacy, which includes the right not to have
 - Their possessions seized.
 - The privacy of their communication infringed.
 
-##### Section 16 - Right to Freedom of Expression
+##### Section 16 - Right to Freedom of Expression ✍
 
 Right does not extend to:
 - Propoganda of war.
@@ -99,33 +108,106 @@ These laws come with *reasonable measures* of limitation to maintain the safety 
 
 ---
 
-### Kinds of Privacy
+### Kinds of Privacy 😉
 
 
-**Physical/accessibility**
+####**Physical/accessibility**
 
 Refers to the non intrusion of one's physical space.
 
-**Decisional**
+####**Decisional**
 
 This regards to privacy in one's choices.
 
-**Psychological/Mental**
+####**Psychological/Mental**
 
+The privacy of our thoughts and our own mental monologue.
 
+####**Information**
 
-**Informational**
-
+Ability to restrict or control the information surrounding yourself and your activities.
 
 ---
 
 ### Legislation related to Privacy
 
+#### Protection of Personal Information Act
+
+This is the largest act concerned with personal privacy. Has the following principles:
+
+##### &nbsp; Accountability
+
+Who is held responsible should the informaiton be stolen or misused?
+
+##### &nbsp; Processing Limitation
+
+Information must be taken in a fair, ethical and consentful way.
+
+##### &nbsp; Purpose Specification
+
+Must explicitely state why they require the information.
+
+##### &nbsp; Further Processing Limitation
 
 
----
+
+##### &nbsp; Information Quality
+
+Ensuring that information is accurate, timely, not misleading and complete.
+
+##### &nbsp; Openness
+
+Companies must give full disclosure and transparency on information use.
+
+##### &nbsp; Security Safeguards
+
+Ensures reasonable basic security for all information.
+
+##### &nbsp; Data Subject Participation
+
+Person can request deletion of information and a list of all parties involved with the processing of information.
+
+- - -
+
+
+
+### Electronic Communications and Technology Act
+
+#### Chapter 8
+
+#### Chapter 9
+
+- - -
 
 ### Legislation Supporting Constitution
+
+### Information Accuracy ☄
+
+####Misinformation
+
+This is when information is inaccurate as a result of human error.
+
+####Disinformation
+
+This is when information is purposefully inaccurate.
+
+### Identity and Social Engineering ⚠️
+
+**Types of Identity Theft:** 😧
+
+- Criminal Identity Theft
+- Financial Idenity Theft
+- Identity Cloning
+- Child Identity Theft
+- Synthetic Identity Theft
+
+**Common Social Engineering Attacks**
+
+- Email from a friend.
+- Phising Attemps
+- Baiting scenarios
+- Response to a quesion you never had?
+- Creating distrust
 
 ***
 
