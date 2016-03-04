@@ -9,7 +9,7 @@ $$y_{n+1} = ay_n + b$$
 
 The general solution for y<sub>n</sub> is:
 
-$$y_n=\frac{b}{1-a} + (y_0- \frac{b}{1-a})a^n$$
+$$y_n=\frac{b}{1-a} + (y_0- \frac{b}{1-a}).a^n$$
 
 
 ###Long term behaviour

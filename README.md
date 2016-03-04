@@ -1,30 +1,34 @@
-#Notes
+# Notes
 
 For optimum reading, check out the HTML, PDFs or download [Haroopad](http://pad.haroopress.com/user.html).
 
-##COS 212
+## COS 212
 
-<a href="Recursion.md">Recursion</a>
+<a href="COS/Recursion.md">Recursion</a>
 <br/>
-<a href="LinkedLists.md">Linked Lists</a>
+<a href="COS/LinkedLists.md">Linked Lists</a>
 <br/>
-<a href="ComplexityAnalysis.md">Complexity Analysis</a>
+<a href="COS/ComplexityAnalysis.md">Complexity Analysis</a>
 <br/>
-<a href="BinaryTrees.md">Binary Trees</a>
+<a href="COS/BinaryTrees.md">Binary Trees</a>
 
-##COS 216
+## COS 216
 
-<a href="HTML.md">HTML</a>
+<a href="COS/HTML.md">HTML</a>
 <br/>
-<a href="CSS.md">CSS</a>
+<a href="COS/CSS.md">CSS</a>
 <br/>
-<a href="XML.md">XML</a>
+<a href="COS/XML.md">XML</a>
 <br/>
-<a href="Sockets.md">Sockets</a>
+<a href="COS/Sockets.md">Sockets</a>
 
-##WTW 152
+## WTW 152
 
-<a href="DifferenceEquasions.md">Difference Equasions</a>
+<a href="WTW/DifferenceEquasions.md">Difference Equasions</a>
 
-##INF 214
+## INF 214
+
+
+
+## INL 240
 
